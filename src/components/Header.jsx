@@ -16,7 +16,7 @@ function Header({text, bgColor, textColor}) {
 }
 
 Header.defaultProps = {
-    text : "Feedback UI",
+    text : "Anime Songs",
     bgColor : "rgba(0,0,0,0.4)",
     textColor : "#FF6A95"
 }

@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
+import YoutubeEmbed from "./components/YoutubeEmbed";
 import FeedbackForm from "./components/FeedbackForm";
 import FeedbackStats from "./components/FeedbackStats";
 import FeedbackList from "./components/FeedbackList";
@@ -19,6 +20,7 @@ function App() {
               path="/"
               element={
                 <>
+                  <YoutubeEmbed />
                   <FeedbackForm />
                   <FeedbackStats />
                   <FeedbackList />
